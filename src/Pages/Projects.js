@@ -146,7 +146,7 @@ const Projects = () => {
                 Estado del clima por ubicación consumiendo la API de{" "}
                 <a href="https://openweathermap.org/api">Open Weather</a>
               </li>
-              <li>Pronostico del clima para los próximos dos días.</li>
+              <li>Pronostico del clima para los próximos tres días.</li>
             </ul>
             <div className="project-links">
               <a

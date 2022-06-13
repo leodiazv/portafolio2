@@ -17,9 +17,18 @@ const AboutMe = () => {
           resultados tanto del lado del cliente(FRONT-END) como desde el
           servidor(BACK-END). Actualmente me estoy capacitando como
           desarrollador
-          <span> Web Full Stack en un bootcamp en Academlo</span> y busco mi
-          primera oportunidad para poner mis conocimientos en práctica y seguir
-          creciendo.
+          <span>
+            {" "}
+            Web Full Stack en un bootcamp en{" "}
+            <a
+              href="https://www.linkedin.com/company/academlo/"
+              target="_blanck"
+            >
+              Academlo
+            </a>
+          </span>{" "}
+          y busco mi primera oportunidad para poner mis conocimientos en
+          práctica y seguir creciendo.
         </p>
       </div>
     </div>

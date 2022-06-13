@@ -59,6 +59,10 @@
     color: #C32865;
 }
 
+.about-me .about-container a{
+    color: #C32865;
+}
+
 @media (min-width: 1024px){
 
     .about-container{
