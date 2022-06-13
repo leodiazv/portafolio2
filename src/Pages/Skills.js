@@ -14,7 +14,7 @@ import vscode from "../assets/skills/vscode.svg";
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-section" id="skills">
       <div className="section-head">
         <span>MIRA MIS</span>
         <h2>HABILIDADES</h2>

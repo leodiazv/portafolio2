@@ -1,4 +1,4 @@
-.skills-container{
+.skills-section{
     box-sizing: border-box;
     padding: 80px 20px;
     display: flex;
@@ -8,11 +8,11 @@
     background-color: #f7f7f7;
 }
 
-.skills-container .section-head{
+.skills-section .section-head{
     margin-bottom: 50px;
 }
 
-.skills-container .section-head span {
+.skills-section .section-head span {
 
     padding-bottom: 20px;
         display: block;
@@ -27,7 +27,7 @@
 
 
 
-.skills-container .section-head span::before{
+.skills-section .section-head span::before{
     display: inline-block;
     content: "";
     position: absolute;
@@ -39,7 +39,7 @@
     
 }
 
-.skills-container .section-head h2{
+.skills-section .section-head h2{
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 1.6rem;
@@ -47,12 +47,12 @@
     
 }
 
-.skills-container .skills-container{
+.skills-section .skills-container{
     
     padding: 0;
 }
 
-.skills-container .skills-container ul{
+.skills-section .skills-container ul{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
@@ -61,7 +61,7 @@
     row-gap: 15px;
 }
 
-.skills-container .skills-container ul li{
+.skills-section .skills-container ul li{
 
     background-color: white;
     padding: 10px;
@@ -72,15 +72,31 @@
     border: 1px solid #eee;
 }
 
-.skills-container .skills-container ul li img{
+.skills-section .skills-container ul li img{
 
     width: 35px;
     height: 35px;
     vertical-align: middle;
 }
 
-.skills-container .skills-container ul li p{
+.skills-section .skills-container ul li p{
 
     margin: 5px 0px 0px;
     font-size: 11px;
+}
+
+@media (min-width: 1024px){ 
+
+    .skills-section .skills-container{
+    background-color: white;
+    border-radius: 50px;
+    padding: 48px;
+    }
+
+    .skills-section .skills-container .skills-grid{
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+
 }

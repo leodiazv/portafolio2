@@ -23,29 +23,31 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <div className="section-head">
         <span>DI HOLA</span>
         <h2>CONTACTAME</h2>
       </div>
-      <div className="mail-container">
-        <h3>Escribeme</h3>
-        <a href="mailto:leodiazv@gmail.com">leodiazv@gmail.com</a>
-        <br></br>
-        {/* <h3>Llamame</h3>
+      <div className="contact-container">
+        <div className="mail-container">
+          <h3>Escribeme</h3>
+          <a href="mailto:leodiazv@gmail.com">leodiazv@gmail.com</a>
+          <br></br>
+          {/* <h3>Llamame</h3>
         +57 319-218-8473 */}
+        </div>
+        <form
+          action={FORM_ENDPOINT}
+          onSubmit={handleSubmit}
+          method="POST"
+          target="_blank"
+        >
+          <input type="text" placeholder="Tu nombre" name="name" required />
+          <input type="email" placeholder="Correo" name="email" required />
+          <textarea placeholder="Mensaje" name="message" required />
+          <button type="submit"> ENVIAR </button>
+        </form>
       </div>
-      <form
-        action={FORM_ENDPOINT}
-        onSubmit={handleSubmit}
-        method="POST"
-        target="_blank"
-      >
-        <input type="text" placeholder="Tu nombre" name="name" required />
-        <input type="email" placeholder="Correo" name="email" required />
-        <textarea placeholder="Mensaje" name="message" required />
-        <button type="submit"> ENVIAR </button>
-      </form>
     </div>
   );
 };

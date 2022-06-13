@@ -121,3 +121,48 @@
 }
 
 
+@media (min-width: 1024px){ 
+    .presentation{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .presentation .profile-img-container img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .presentation .profile-img-container, .profileDescription{
+        flex: 0 0 50%;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+
+
+    }
+
+
+    .presentation .profileDescription p,h1{
+        text-align: left;
+
+    }
+
+    .presentation .profileDescription h1{
+        font-size: 40px;
+    }
+
+    
+
+    .presentation .profileDescription .socialResume{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .presentation .profileDescription .socialResume .social-list{
+        padding: 0;
+        margin-left: 50px;
+    }
+    
+}

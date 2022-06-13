@@ -94,3 +94,12 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+
+@media (min-width: 1024px){ 
+
+ .contact-section .contact-container{
+    background-color: white;
+    border-radius: 50px;
+    padding: 48px;
+ }
+}

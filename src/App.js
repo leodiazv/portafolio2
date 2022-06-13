@@ -19,11 +19,13 @@ function App() {
       </div>
       <Aside isMenuOpen={isMenuOpen} />
       <div className="outer-wrapper">
-        <Presentation />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <ContactForm />
+        <div className="inner-wrapper">
+          <Presentation />
+          <AboutMe />
+          <Skills />
+          <Projects />
+          <ContactForm />
+        </div>
       </div>
     </div>
   );

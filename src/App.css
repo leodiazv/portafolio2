@@ -55,6 +55,22 @@ body{
   overflow: hidden;
 }
 
+@media (min-width: 1024px){
+  .outer-wrapper{
 
+    width: calc(100%-220px);
+    margin-left: 220px;
+    background-color: #f7f7f7;
 
+  }
 
+  .inner-wrapper{
+    padding: 0 33px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .menu-button{
+    display: none;
+  }
+
+}

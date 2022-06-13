@@ -7,18 +7,20 @@ import weather from "../assets/projects-screenshots/weather.png";
 
 const Projects = () => {
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects">
       <div className="section-head">
         <span>DALE UN VISTAZO A MIS</span>
         <h2>TRABAJOS</h2>
       </div>
       <div className="projects-container">
         <article className="project-box">
-          <img
-            className="project-image-container"
-            src={ecommerce}
-            alt="ecommerce"
-          ></img>
+          <div className="project-image-container">
+            <img
+              className="project-image-container"
+              src={ecommerce}
+              alt="ecommerce"
+            ></img>
+          </div>
           <div className="project-describe-container">
             <h3>E-commerce</h3>
             <h4>
@@ -52,11 +54,13 @@ const Projects = () => {
           </div>
         </article>
         <article className="project-box">
-          <img
-            className="project-image-container"
-            src={pokedex}
-            alt="pokedex"
-          ></img>
+          <div className="project-image-container">
+            <img
+              className="project-image-container"
+              src={pokedex}
+              alt="pokedex"
+            ></img>
+          </div>
           <div className="project-describe-container">
             <h3>Pokedex</h3>
             <h4>
@@ -85,11 +89,13 @@ const Projects = () => {
           </div>
         </article>
         <article className="project-box">
-          <img
-            className="project-image-container"
-            src={rickandmorty}
-            alt="rickandmorty"
-          ></img>
+          <div className="project-image-container">
+            <img
+              className="project-image-container"
+              src={rickandmorty}
+              alt="rickandmorty"
+            ></img>
+          </div>
           <div className="project-describe-container">
             <h3>Rick and Morty APP</h3>
             <h4>
@@ -119,13 +125,14 @@ const Projects = () => {
             </div>
           </div>
         </article>
-
         <article className="project-box">
-          <img
-            className="project-image-container"
-            src={weather}
-            alt="weather"
-          ></img>
+          <div className="project-image-container">
+            <img
+              className="project-image-container"
+              src={weather}
+              alt="weather"
+            ></img>
+          </div>
           <div className="project-describe-container">
             <h3>App del clima</h3>
             <h4>

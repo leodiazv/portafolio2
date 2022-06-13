@@ -58,3 +58,17 @@
 .about-me .about-container p span{
     color: #C32865;
 }
+
+@media (min-width: 1024px){
+
+    .about-container{
+        background-color: #fff;
+        padding: 48px;
+        border-radius: 50px;
+    }
+
+    .about-container p{
+        line-height: 1.5;
+        font-size: 20px;
+    }
+}
