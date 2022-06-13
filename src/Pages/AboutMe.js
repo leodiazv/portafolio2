@@ -12,10 +12,10 @@ const AboutMe = () => {
         <p>
           Soy un padawan del desarrollo web en busca de nuevas oportunidades en
           el mundo IT. Tuve un primer acercamiento a la programacion como
-          autodidacta completado cursos de JavaScript, HTML y CSS donde me
-          encanto el desafio de resolver problemas con logica y ver los
-          resultados tanto del lado del cliente(FRONT-END) como desde el
-          servidor(BACK-END). Actualmente me estoy capacitando como
+          autodidacta completando cursos de JavaScript, HTML y CSS donde me
+          encantó el desafío de resolver problemas con lógica y ver los
+          resultados tanto del lado del cliente (FRONT-END) como desde el
+          servidor (BACK-END). Actualmente me estoy capacitando como
           desarrollador
           <span>
             {" "}
@@ -24,7 +24,7 @@ const AboutMe = () => {
               href="https://www.linkedin.com/company/academlo/"
               target="_blanck"
             >
-              Academlo
+              Academlo,
             </a>
           </span>{" "}
           y busco mi primera oportunidad para poner mis conocimientos en

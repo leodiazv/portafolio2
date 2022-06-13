@@ -26,7 +26,7 @@ const ContactForm = () => {
     <div className="contact-section" id="contact">
       <div className="section-head">
         <span>DI HOLA</span>
-        <h2>CONTACTAME</h2>
+        <h2>CONTÁCTAME</h2>
       </div>
       <div className="contact-container">
         <div className="mail-container">
