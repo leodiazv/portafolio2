@@ -30,7 +30,7 @@ const Presentation = () => {
           <ul className="social-list">
             <li>
               <a
-                href="https://www.linkedin.com/in/leonardo-diaz-48358923b/"
+                href="https://www.linkedin.com/in/leonardo-diaz-vecchio-48358923b/"
                 target="_blank"
                 rel="noreferrer"
               >
