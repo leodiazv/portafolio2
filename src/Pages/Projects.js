@@ -49,7 +49,13 @@ const Projects = () => {
               >
                 Live
               </a>
-              <a href="https://github.com/leodiazv/e-commerce">Repo</a>
+              <a
+                href="https://github.com/leodiazv/e-commerce"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
             </div>
           </div>
         </article>
@@ -84,7 +90,13 @@ const Projects = () => {
               >
                 Live
               </a>
-              <a href="https://github.com/leodiazv/pokedex">Repo</a>
+              <a
+                href="https://github.com/leodiazv/pokedex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
             </div>
           </div>
         </article>
@@ -119,7 +131,11 @@ const Projects = () => {
               >
                 Live
               </a>
-              <a href="https://github.com/leodiazv/leo-rick-and-morty-app">
+              <a
+                href="https://github.com/leodiazv/leo-rick-and-morty-app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Repo
               </a>
             </div>
@@ -144,7 +160,13 @@ const Projects = () => {
             <ul>
               <li>
                 Estado del clima por ubicación consumiendo la API de{" "}
-                <a href="https://openweathermap.org/api">Open Weather</a>
+                <a
+                  href="https://openweathermap.org/api"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open Weather
+                </a>
               </li>
               <li>Pronostico del clima para los próximos tres días.</li>
             </ul>
@@ -156,7 +178,13 @@ const Projects = () => {
               >
                 Live
               </a>
-              <a href="https://github.com/leodiazv/weather-app">Repo</a>
+              <a
+                href="https://github.com/leodiazv/weather-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
             </div>
           </div>
         </article>
