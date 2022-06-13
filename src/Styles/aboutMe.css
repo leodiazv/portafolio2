@@ -1,0 +1,60 @@
+.about-me{
+    box-sizing: border-box;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #000000;
+    position: relative;
+    background: #f7f7f7;
+
+}
+
+.about-me .section-head{
+    margin-bottom: 50px;
+}
+
+.about-me .section-head span {
+
+    padding-bottom: 20px;
+        display: block;
+        font-size: 10px;
+        text-transform: uppercase;
+        position: relative;
+        padding-left: 80px;
+        letter-spacing: 1px;
+        text-align: left;
+
+}
+
+
+
+.about-me .section-head span::before{
+    display: inline-block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 50px;
+    height: 1px;
+    background: rgb(0, 0, 0);
+    
+}
+
+.about-me .section-head h2{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    text-align: left;
+    
+}
+
+.about-me .about-container p {
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.about-me .about-container p span{
+    color: #C32865;
+}

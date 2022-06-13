@@ -1,0 +1,19 @@
+.side-menu{
+    position: fixed;
+    width: 220px;
+    height: 100vh;
+    background-color: #C32865;
+    z-index: 10;
+    transition: 1s;
+
+
+}
+.is-closed{
+    transform: translateX(-220px);
+
+}
+
+.is-open{
+    transform: translateX(0px);
+
+}
