@@ -17,7 +17,7 @@ function App() {
           <i class="fas fa-hamburger"></i>
         </button>
       </div>
-      <Aside isMenuOpen={isMenuOpen} />
+      <Aside isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <div className="outer-wrapper">
         <div className="inner-wrapper">
           <Presentation />
