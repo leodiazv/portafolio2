@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/projects.css";
+import meliClon from "../assets/gif/meli-clon-demo.gif";
 import ecommerce from "../assets/projects-screenshots/ecommerce.png";
 import rickandmorty from "../assets/projects-screenshots/rickandmorty.png";
 import pokedex from "../assets/projects-screenshots/pokedex.png";
@@ -13,6 +14,54 @@ const Projects = () => {
         <h2>TRABAJOS</h2>
       </div>
       <div className="projects-container">
+        <article className="project-box meli-clon">
+          <div className="project-image-container">
+            <img
+              className="project-image-container"
+              src={meliClon}
+              alt="Gif de la pagina clon de mercado libre"
+            ></img>
+          </div>
+          <div className="project-describe-container">
+            <h3>ALKEMY, ACELERACIÓN REACT - CLON MERCADO LIBRE</h3>
+            <h4>
+              Tecnologias usadas:
+              <span className="tech-stack"> React</span>,
+              <span className="tech-stack"> TypeScript</span>,
+              <span className="tech-stack"> Redux-Toolkit</span>,
+              <span className="tech-stack"> CSS</span>,
+              <span className="tech-stack"> Sass</span>,
+              <span className="tech-stack"> Jira</span>,
+              <span className="tech-stack"> Git</span>.
+              <span className="tech-stack"> GitHub</span>.
+              <span className="tech-stack"> Firebase-Auth</span>.
+            </h4>
+            <ul>
+              <li>
+                Clon de la pagina de Mercado Libre como proyecto final de la
+                aceleración de React de Alkemy. Utilizando la API de la empresa,
+                se desarrolló en equipo el front para búsqueda y compra de
+                artículos, y el registro y autenticación de usuarios.
+              </li>
+            </ul>
+            <div className="project-links">
+              <a
+                href="https://meli-clon.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/Meli-clone/meli-clone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
+            </div>
+          </div>
+        </article>
         <article className="project-box">
           <div className="project-image-container">
             <img

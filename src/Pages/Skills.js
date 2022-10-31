@@ -11,6 +11,8 @@ import sequelize from "../assets/skills/sequelize.svg";
 import git from "../assets/skills/git.svg";
 import postman from "../assets/skills/postman.svg";
 import vscode from "../assets/skills/vscode.svg";
+import ts from "../assets/skills/ts.png";
+import sass from "../assets/skills/sass.svg";
 
 const Skills = () => {
   return (
@@ -36,6 +38,14 @@ const Skills = () => {
           <li className="item-container">
             <img src={react} alt="react"></img>
             <p>React</p>
+          </li>
+          <li className="item-container">
+            <img src={ts} alt="ts"></img>
+            <p>TypeScript</p>
+          </li>
+          <li className="item-container">
+            <img src={sass} alt="sass"></img>
+            <p>Sass</p>
           </li>
           <li className="item-container">
             <img src={api} alt="restApi"></img>

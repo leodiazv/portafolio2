@@ -18,15 +18,14 @@ const Presentation = () => {
           aplicaciones interactivas y experiencias en la web
         </p>
         <div className="socialResume">
-          <div className="resume-link">
-            <a
-              href="https://drive.google.com/uc?id=1M0kakPI0lqAupq3JXATh3QN5mNzg6JX-&export=download"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CV
-            </a>
-          </div>
+          <a
+            href="https://drive.google.com/uc?id=1M0kakPI0lqAupq3JXATh3QN5mNzg6JX-&export=download"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            <div className="resume-link">CV</div>
+          </a>
           <ul className="social-list">
             <li>
               <a

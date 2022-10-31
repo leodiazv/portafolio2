@@ -15,8 +15,7 @@ const AboutMe = () => {
           autodidacta completando cursos de JavaScript, HTML y CSS donde me
           encantó el desafío de resolver problemas con lógica y ver los
           resultados tanto del lado del cliente (FRONT-END) como desde el
-          servidor (BACK-END). Actualmente me estoy capacitando como
-          desarrollador
+          servidor (BACK-END). Me capacité como desarrollador
           <span>
             {" "}
             Web Full Stack en un bootcamp en{" "}
